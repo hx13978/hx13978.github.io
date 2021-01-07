@@ -9,3 +9,67 @@ footer { grid-area: footer; }
     "main main"
     "footer footer"
 }
+
+body {
+    background-color: rgb(105, 140, 140);
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    border-bottom: 10px solid #777777;
+    padding-bottom: 10px;
+    background: url("http://metrogiant.com/metrorestyling/ebay/listingphotos/Camo/DG/DigitalUrbanNightCamo.jpg");
+
+}
+
+h1 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #fcf262;
+}
+
+h2 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 25px;
+    color:orange;
+}
+
+.style {
+    position: relative;
+        
+}
+img {
+    height: 200px;
+    width: auto;
+    margin: 15px 15px 15px 15px;
+}
+
+.about {
+    float: right;
+    margin: 30px;
+    border-style:solid;
+    border-color: #777777;
+    border-width: 2px;
+    padding: 3px 3px 3px 3px; 
+}
+
+footer {
+    border-top: 8px solid #777777;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    background: url("http://metrogiant.com/metrorestyling/ebay/listingphotos/Camo/DG/DigitalUrbanNightCamo.jpg");
+}
+
+a {
+    color: #fcf262;
+}
+
+@media (max-width: 576px) {
+    .container {
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "footer" "footer";
+    }
+}
