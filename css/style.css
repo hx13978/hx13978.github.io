@@ -1,0 +1,11 @@
+header { grid-area: header; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer"
+}
