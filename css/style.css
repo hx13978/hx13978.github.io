@@ -25,13 +25,24 @@ header {
 
 h1 {
     font-family: 'Goudy Bookletter 1911', serif;
-    color: #fcf262;
+    color: #f7e600;
+}
+
+main {
+    font-size: 17px;
 }
 
 h2 {
     font-family: 'Goudy Bookletter 1911', serif;
     font-size: 25px;
     color:orange;
+    text-decoration: underline;
+}
+
+h3 {
+    color: orange;
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 .style {
@@ -44,15 +55,26 @@ img {
     margin: 15px 15px 15px 15px;
 }
 
+.elmer {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
 .about {
     float: right;
-    margin: 30px;
+    height: 275px;
+    width: 200px;
+    margin: 5px;
     border-style:solid;
     border-color: #777777;
     border-width: 2px;
-    padding: 3px 3px 3px 3px; 
+    padding: 3px 3px 3px 3px;
+    position: relative;
 }
-
+ .list {
+     font-size: 17px;
+ }
 footer {
     border-top: 8px solid #777777;
     padding: 50px;
@@ -62,7 +84,7 @@ footer {
 }
 
 a {
-    color: #fcf262;
+    color: #f7e600;
 }
 
 @media (max-width: 576px) {
