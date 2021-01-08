@@ -55,25 +55,27 @@ img {
     margin: 15px 15px 15px 15px;
 }
 
-.elmer {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
-
 .about {
     float: right;
     height: 275px;
     width: 200px;
-    margin: 5px;
     border-style:solid;
     border-color: #777777;
     border-width: 2px;
     padding: 3px 3px 3px 3px;
     position: relative;
 }
+
+.elmertext {
+    float: right;
+    font-size: 30px;
+    color: orange;
+}
+
  .list {
-     font-size: 17px;
+     font-size: 20px;
+     color: peachpuff;
+     font-family: 'Acme', sans-serif;
  }
 footer {
     border-top: 8px solid #777777;
@@ -81,6 +83,10 @@ footer {
     text-align: center;
     font-size: 30px;
     background: url("http://metrogiant.com/metrorestyling/ebay/listingphotos/Camo/DG/DigitalUrbanNightCamo.jpg");
+}
+
+a:hover {
+    color: orange;
 }
 
 a {
